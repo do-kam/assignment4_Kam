@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 daten = pd.read_csv('input.csv', delimiter =";", header =None, skiprows =2)
+#if Excel is in German and the Decimalpoint is a "," instead of ".": use this
+#daten = pd.read_csv('input.csv', delimiter =";", header =None, decimal = ",", skiprows =2)
 X = np.array(daten)
 
 #create a scatter plot
