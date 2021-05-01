@@ -1,4 +1,5 @@
 #sources https://medium.com/@sametgirgin/hierarchical-clustering-model-in-5-steps-with-python-6c45087d4318
+#https://github.com/do-kam/assignment4_Kam
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -30,7 +31,7 @@ plt.ylabel('y-axis')
 plt.show()
 
 
-#using dendogram to find the optimal numbers of clusters
+#using dendogram to find the optimal numbers of clusters (in our case we know we want 3 clusters)
 
 import scipy.cluster.hierarchy as sch
 
